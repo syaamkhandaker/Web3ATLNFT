@@ -1,0 +1,100 @@
+html,
+body {
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background: linear-gradient(#fe8ce2, #38a4fa);
+  background-attachment: fixed;
+}
+
+@font-face {
+  font-family: Adventure;
+  src: url(https://web3atl.io/adventure.woff);
+}
+.error-message {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.connect-wallet {
+  background-color: white;
+  border: 1px solid blue;
+}
+.connect-wallet:hover {
+  opacity: 0.7;
+}
+.font {
+  color: black;
+  font-size: 56px;
+  font-family: Adventure;
+  font-weight: 300;
+}
+.outeredge {
+  padding: 20px 40px;
+}
+.header {
+  margin-bottom: 50px;
+}
+.text-area {
+  display: flex;
+  justify-content: center;
+  width: 330px;
+}
+.option-box {
+  width: 300px;
+  height: 250px;
+  padding: 20px 20px;
+}
+.text-option-box {
+  width: 300px;
+  border: 1px solid black;
+  padding: 10px 15px;
+  height: fit-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.circle {
+  display: flex;
+  border-radius: 12px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid black;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  background-color: white;
+}
+.filled-circle {
+  display: flex;
+  border-radius: 12px;
+  width: 24px;
+  height: 24px;
+  background: black;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  background-color: blue;
+}
+.filled-circle:hover {
+  cursor: pointer;
+}
+.hidden-fields {
+  display: none;
+}
+.btn-size {
+  margin-top: 0px;
+  width: 200px;
+  height: max-content;
+}
+.error-message {
+  margin-top: -40px;
+  margin-bottom: 10px;
+  display: none;
+}
+.invalid-email-error-message {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  display: none;
+  max-width: 530px;
+  line-height: 25px;
+  text-align: center;
+}
